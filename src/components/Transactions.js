@@ -16,7 +16,14 @@ const Transactions = ({ transactions }) => {
               <h6 class="card-subtitle mb-2 text-muted">
                 {transaction.amount}
               </h6>
-              <p class="card-text">{transaction.type}</p>
+
+              <p
+                className={`card-text ${
+                  transaction.type == "debit" ? "text-danger" : "text-success"
+                }`}
+              >
+                {transaction.type}
+              </p>
             </div>
           </div>
         ))}
