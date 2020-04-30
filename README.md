@@ -3,6 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 To test the project you have to install node and execute this commands
 
 `npm install -g serve`
+
 `serve -s build`
 
 ## Available Scripts
