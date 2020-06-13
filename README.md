@@ -1,3 +1,13 @@
+# react-accountbook
+
+## UX/UI requirements:
+
+We need a simple UI application for this web service.
+Please don't spend time for making it beautiful. Use a standard CSS library, like Bootstrap with a theme (or any other).
+UI application should display the transactions history list only. No other operation is required.
+Transactions list should be done in accordion manner. By default the list shows short summary (type and amount) for each transaction. Full info for a transaction should be shown on user's click.
+It would be good to have some coloring for credit and debit transactions.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,4 +76,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
 # react-accountbook
