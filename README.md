@@ -10,6 +10,12 @@ It would be good to have some coloring for credit and debit transactions.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To test the project you have to install node and execute this commands
+
+`npm install -g serve`
+
+`serve -s build`
+
 ## Available Scripts
 
 In the project directory, you can run:
